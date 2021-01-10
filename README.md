@@ -77,3 +77,14 @@ instructions for reporting a bug
 ### Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for more info.
+
+
+-----------------------------------------------------------
+1、启动vm参数
+mainClass：
+org.apache.catalina.startup.Bootstrap
+VM：
+-Dcatalina.home=home
+-Dcatalina.base=home
+-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+-Djava.util.logging.config.file=home/conf/logging.properties
